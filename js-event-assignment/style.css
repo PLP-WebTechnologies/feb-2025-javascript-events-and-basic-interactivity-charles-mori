@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .gallery img {
+    max-width: 200px;
+    display: block;
+  }
+  .tab-content {
+    display: none;
+    margin-top: 10px;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  #passwordFeedback {
+    display: block;
+    color: red;
+  }
+  

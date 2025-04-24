@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JS Interactive Fun Zone 🎉</h1>
+
+  <!-- Event Buttons -->
+  <button id="clickBtn">Click Me!</button>
+  <button id="hoverBtn">Hover Over Me!</button>
+  <input type="text" id="keyInput" placeholder="Type something..." />
+
+  <!-- Secret Action -->
+  <button id="secretBtn">Double-click Me!</button>
+
+  <!-- Interactive Elements -->
+  <button id="changeTextBtn">Change My Text</button>
+  <div class="gallery">
+    <img id="galleryImg" src="img/img1.png" alt="Cute Kitten" />
+    <button id="nextImgBtn">Next Image</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-target="content1">Tab 1</button>
+    <button class="tab" data-target="content2">Tab 2</button>
+    <div id="content1" class="tab-content">Content for Tab 1</div>
+    <div id="content2" class="tab-content">Content for Tab 2</div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="passwordFeedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
